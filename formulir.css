@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #f3f5f9;
+}
+.wrapper .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: linear-gradient(pink, grey);
+    padding: 30px 0;
+}
+.wrapper .sidebar .profil{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.wrapper .sidebar .profil img{
+    display: block;
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.wrapper .sidebar .profil h1{
+    color: black;
+    margin: 10px 0 5px;
+    font-size: 15px;
+}
+ul li{
+    list-style: none;
+    width: 100%;
+}
+ul li a{
+    width: 100%;
+    color: black;
+    font-weight: 500;
+    padding: 5px 0;
+    display: block;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: 0.2s ease-out;
+}
+ul li:hover a{
+    color: #fff;
+    background-color: palevioletred;
+
+}
+
+ul li a i{
+    width: 40px;
+    text-align: center;
+}
+
+.wrapper .main_content{
+    width: 85.4%;
+    margin-left: 200px;   
+}
+.wrapper .main_content .header{
+    padding: 30px;
+    background: pink;
+    border-bottom: 1px solid #e0e4e8;
+}
+.wrapper .main_content .info{
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+}
+.wrapper .main_content .info h3{
+    padding: 40px;
+    justify-content: space-between;
+    margin: 10px 0 5px;
+    margin-bottom: 20px;
+}
+.wrapper .main_content .info div{
+    margin-bottom: 20px;
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+form .txt_field{
+    position: relative;
+    border-bottom: 2px solid rgb(238, 150, 164);
+    margin: 30px, 0;
+}
+.txt_field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+.txt_field label{
+    top: 50%;
+    left: 5px;
+    color: #717171;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+}
+#date {
+    width: 100%;
+}
+table {
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+}
+Input {
+    width: 99%;
+    height: 50%;
+    border-radius: 10px;
+    border-color: rgb(255, 130, 193);
+    padding: 5px;
+}
+h1{
+    font-size: 150%;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulir</title>
+        <link rel="stylesheet" href="formulir.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="slide">
+            <div class="wrapper">
+                <div class="sidebar">
+                     <!--profile image-->
+                     <div class="profil">
+                        <img src="anggi.jpeg" alt="">
+                        <h1>Aisyah R. Pohontu F55121054</h1>
+                        <hr>
+                    </div>
+            <ul>
+                <li><a href="sidebar.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="data.html"><i class="fas fa-table"></i> Data</a></li>
+                <li><a href="formulir.html"><i class="far fa-address-book"></i> Formulir</a></li>
+                <li><a href="index.html"><i class="fas fa-sign-out"></i> Log out</a></li>
+            </ul>       
+                </div>
+                <div class="main_content">
+                    <div class="header"></div>
+                    <div class="info">
+                        <table border="0">
+                            <tr>
+                                <td align="center" colspan="2">
+                                    <h1>Formulir Penitipan Kucing</h1><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label>Nama Pemilik</label><br>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label>Nomor Telepon</label><br>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label>Alamat</label><br>
+                                    <input type="text">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label>Tanggal Penitipan</label><br>
+                                    <input type="date" id="date">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" colspan="2">
+                                    <label for="">Jenis Kelamin :</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <input type="radio" name="Jk" value="Lk"/>Laki-laki
+                                </td>
+                                <td align="center">
+                                    <input type="radio" name="Jk" value="Pr"/>Perempuan
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" colspan="2">
+                                    <label for="">Tarif :</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <input type="radio" name="Rg" value="Reguler"/>Regular
+                                </td>
+                                <td align="center">
+                                    <input type="radio" name="Pk" value="Paket"/>Paket
+                                </td>
+                            </tr>
+                        </table>
+                        <table align="center">
+                            <form action="formulir.html">
+                                <tr>
+                                    <td>
+                                        <input class="tombol" type="submit" value="Submit">
+                                    </td>
+                                </tr>
+                            </form>
+                        </table>  
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </body>
+
+</html>
